@@ -1,0 +1,44 @@
+body {margin: 0px;
+text-align: center;}
+
+.heading {background-color:#2C3639;
+  color:#DCD7C9;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+img {height: 50px;
+padding-top: 15px;}
+
+h2 {padding: 0px;
+margin-top: 20px;}
+
+.blogs { margin: 20px;
+text-align: center;}
+
+.blog-one { height: 100px;
+
+}
+
+.blog-two { height: 100px;
+  
+}
+
+.blog-three { height: 100px;
+}
+
+.blog-four { height: 100px;
+}
+
+.bottom {
+
+  margin-top:10px;
+  margin-bottom: 10;
+  height:50px;
+
+  font-size: 9pt;
+  font-style: italic;
+
+}
