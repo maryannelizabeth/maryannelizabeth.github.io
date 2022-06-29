@@ -1,8 +1,9 @@
 body {margin: 0px;
-text-align: center;}
+text-align: center;
+font-family: montserrat;}
 
-.heading {background-color:#2C3639;
-  color:#DCD7C9;
+.heading {background-color:#54BAB9;
+  color:#F7ECDE;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -54,7 +55,7 @@ width:50%;}
   width: 70%}
 
   hr {
-    border-top: 10px dotted #7D9D9C;
+    border-top: 10px dotted #18978F;
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
