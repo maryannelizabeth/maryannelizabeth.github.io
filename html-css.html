@@ -8,6 +8,56 @@
 
 <body>
  <h1 class = "heading">Inline vs Inline Block</h1>
+<p><To understand Inline vs Inline Block you need to first understand what block and inline are. </p>
+ 
+<div class="inline-block-info">
+  <h3>Block Elements</h3>
 
+  <p>Most elements act as blocks (paragraphs, headings, etc). </p>
+  <p>This means that when you use these in your html code you they will automatically start a new line. </p>
+  <p>By default they will take up 100% of the width of their parent container eg the whole page you can change this but they will still act like blocks and the next one will go underneath. </p>
+  <p>As an example these sentences are all in paragrahs and they will be sitting on top of each other even if there is space for them to be next to each other.</p>
 
-</body>
+  <p> As an example of this here is a image I took from google search.</p>
+
+  <img class="display" src="css-block.jpg.gz" alt="image of display:block" >
+
+  <p> Blocks are great because they easily seperate content and you can add padding, margins etc to make your page look tidy</p>
+
+</div>
+<hr>
+<div class="inline-block-info">
+<h3>Inline elements</h3>
+<p>Inline element are just that. Elements that are IN the LINE. Things like links to websites do this. 
+  Inline elements only take up the width of the content itself. Like this link to the <a href="https://devacademy.co.nz/" target="_blank" rel= "noreferrer noopener">devacademy website</a> </p>
+<p>You can't change the amount of space the inline element takes up in the same way you could a block element, where you could add padding, margins etc. If you do this to an inline element it won't work the same.</p>
+
+<p>Another image from a google search of 'inline elements'</p>
+
+<img class="display" src="css-inline.avif" alt="image of display:inline">
+</div>
+<hr>
+<div class="inline-block-info">
+<h3>Inline Block - The best of both words. </h3>
+
+<p> Inline block seems like a very handy option. You can make elements act inline but have the benefits of blocks.
+  You can style each block how you would like to and have it sitting next to each other like the diagram below. </p>
+
+  <img class="display" src="css-inline-block.avif" alt="image of display:inline-block">
+
+  <h3>How to use inline-block</h3>
+  <p>To apply the inline-block display to an element you simply need to add this to your CSS code for the element as shown below. </p>
+
+  <img src="display-code.png" alt="display:inline-block; code">
+</div>
+<hr>
+  <h3>And so to summarise all this.</h3>
+  <ul> 
+   <li> Block elements stack on top of each other and you can influence the space they take up wiht padding etc.</li> 
+  <li>Inline elements are in the line of content and it isn't very easy to change the space they take up. </li>
+   <li> Using the inline block display allows you to move elements to be inline but still be able to treat them like block elements.</li>
+   </ul>
+<hr>
+
+<a href="index.html">Back to homepage</a>
+  </body>

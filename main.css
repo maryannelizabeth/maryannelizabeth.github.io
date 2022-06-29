@@ -33,12 +33,27 @@ text-align: center;}
 }
 
 .bottom {
-
-  margin-top:10px;
-  margin-bottom: 10;
-  height:50px;
-
-  font-size: 9pt;
+font-size: 9pt;
   font-style: italic;
-
 }
+
+.display {height: 250px;}
+
+ul {
+
+  display:inline-block;
+
+  text-align: left;
+width:50%;}
+
+.inline-block-info {
+  display: inline-block;
+  width: 70%}
+
+  hr {
+    border-top: 10px dotted #7D9D9C;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  width: 900px;
+height: 20px;}
