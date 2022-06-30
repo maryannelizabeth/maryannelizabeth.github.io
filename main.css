@@ -2,39 +2,53 @@ body {margin: 0px;
 text-align: center;
 font-family: montserrat;}
 
-.heading {background-color:#54BAB9;
-  color:#F7ECDE;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
 
 }
 
 img {height: 50px;
 padding-top: 15px;}
 
-.git {display:inline-block;}
-.programming {display:inline-block;}
+hr {
+    border-top: 10px dotted #18978F;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  width: 900px;
+height: 20px;}
 
 h2 {padding: 0px;
 margin-top: 20px;}
 
-.blogs { margin: 20px;
-text-align: center;}
+.heading {background-color:#54BAB9;
+  color:#F7ECDE;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+margin-top: 0px;}
 
-.blog-one { height: 100px;
 
+.blog-one {display:inline-block;
+  width: 400px;
+  height: 300px;
+margin-top: -30px;}
+
+.blog-two {display:inline-block;
+width: 400px;
+height: 300px;
 }
 
-.blog-two { height: 100px;
-  
-}
 
-.blog-three { height: 100px;
-}
+.blog-three {display:inline-block;
+  width: 400px;
+  height: 300px;}
 
-.blog-four { height: 100px;
-}
+.blog-four {display:inline-block;
+  width: 400px;
+  height: 300px;}
+
+.blog-five {display:inline-block;
+  width: 400px;
+  height: 300px;}
 
 .bottom {
 font-size: 9pt;
@@ -54,10 +68,12 @@ width:50%;}
   display: inline-block;
   width: 70%}
 
-  hr {
-    border-top: 10px dotted #18978F;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-  width: 900px;
-height: 20px;}
+  .values {
+    display: inline-block;
+    width: 70%}
+
+  .learing-plan
+  {
+    display: inline-block;
+    width: 70%}
+ 
