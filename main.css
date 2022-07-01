@@ -3,14 +3,12 @@ text-align: center;
 font-family: montserrat;}
 
 
-
-
 hr {
     border-top: 10px dotted #18978F;
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
-  width: 900px;
+  width: 500px;
 height: 20px;}
 
 h2 {padding: 0px;
@@ -57,9 +55,8 @@ font-size: 9pt;
 ul {
 
   display:inline-block;
-
-  text-align: left;
-width:50%;}
+  text-align: left; 
+  width:50%;}
 
 .inline-block-info {
   display: inline-block;
@@ -70,7 +67,10 @@ width:50%;}
     width: 70%}
 
   .learing-plan
-  {
-    display: inline-block;
+  {display: inline-block;
     width: 70%}
+
+    @media (min-width: 600px) {hr {width: 30%;}
+
+    }
  
