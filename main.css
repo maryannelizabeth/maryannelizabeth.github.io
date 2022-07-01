@@ -70,7 +70,18 @@ ul {
   {display: inline-block;
     width: 70%}
 
-    @media (min-width: 600px) {hr {width: 30%;}
+    @media (max-width: 768px) 
+    {
+      hr {width: 30%;}
+      div {width: 90%;}
+      .heading {background-color: pink;}}
 
+      @media (min-width: 768px) {
+      hr {width: 30%;}
+      div {width: 90%;}
+      .heading {background-color: teal;}
+
+      @media (min-width: 1200px) {
+        .heading {background-color: darkmagenta;}
+      }
     }
- 
